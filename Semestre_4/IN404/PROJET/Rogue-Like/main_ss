@@ -1,0 +1,84 @@
+package fr.uvsq.poo.monprojet;
+
+import java.awt.FlowLayout;
+import java.util.*;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+
+//import asciiPanel.AsciiPanel;
+/*
+public class Main extends JFrame {
+	//public enum Application {
+   // APPLICATION;
+	
+
+    //private static final Logger logger = LogManager.getLogger(Application.class);
+
+    /**
+     * Un exemple de méthode.
+     */
+   // public String getGreetings() {
+     //   return "Hello c'est moi !";
+   // }
+    
+  
+
+    /**
+     * Cette méthode est destinée à initialiser et lancer l'exécution du programme.
+     *
+     * @param args les paramètres de la ligne de commande du shell
+     */
+  /* public void run(String[] args) {
+        logger.trace("Début du programme");
+       // System.out.println(getGreetings());
+       
+        logger.trace("Fin du programme");
+    }
+
+    /**
+     * La méthode de classe <em>main</em> se contente de déléguer le lancement du programme à la méthode <em>run</em>.
+     *
+     * @param args les paramètres de la ligne de commande du shell
+     */
+	
+	/*public Main(){
+	
+	}
+
+*/
+
+
+/*
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	//	APPLICATION.run(args);
+		System.out.println("Début main");
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Entrer un entier entre 1 et 4 ");
+		int i = sc.nextInt();
+		Terrain t = new Terrain();
+
+			while (i < 1 || i > 4)
+		{
+			System.out.println("Entrer un entier entre 1 et 4 ");
+			 i = sc.nextInt();
+		}
+
+		PJ p = new PJ(i);
+
+		//while(p.mort()!=true)
+		//{}
+
+		t.afficheTab();
+		t.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		t.setVisible(true);
+		
+		System.out.println("Fin main");
+	}
+
+
+}*/
